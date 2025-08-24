@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">We value your feedback! Please take a few moments to complete this survey. Your responses will help us improve our services and better meet your needs. All answers will be kept confidential and used only for research purposes
+    </p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Your Name:</label>
+      <input type="text" id="name" required placeholder="insert name (required)">
+      <label for="email" id="email-label">Email Address</label>
+      <input type="email" id="email" required placeholder="insert email(required)">
+      <label for="number" id="number-label">Your Number</label>
+      <input type="number" min="100000" max="400000" id="number" placeholder="insert number">
+      <select id="dropdown">
+        <option>First option</option>
+        <option>Second option</option>
+      </select>
+      <input type="radio" value="Yes" name="">
+      <input type="radio" value="" name="">
+    </form>
+  </body>
+</html>
